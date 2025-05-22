@@ -43,7 +43,7 @@ def convertidor_temp(temperatura, inicio, fin):
     else:
             print("Escala inicial errónea")
     
-    print(resultado)
+    print(f"{temperatura}°{inicio} = {resultado}°{fin}")
 
 temp = float(input("Ingrese su temperatura a convertir: "))
 escala_inicial = input("Indique escala inicial: C, F o K: ").upper().strip()
